@@ -1,4 +1,4 @@
-name: 喜马拉雅极速版11
+name: xmly-hundun
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
           pip install requests
           pip install rsa
 
-      - name: 'run 喜马拉雅极速版'
+      - name: 'run xmly-hundun'
         # xmly_speed.py目录自己修改
         run: python3 quanx/xmly_speed.py
         env:
